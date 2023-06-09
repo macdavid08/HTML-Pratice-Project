@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>HTML PRATICE PROJECT</title>
+</head>
+<body>
+            
+       <section>
+        <div>
+            <article>
+                <h3>Web Development Coaching</h3>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Exercitationem fugit sequi vitae similique, illum error 
+                    voluptates alias perferendis, distinctio consequatur voluptas, 
+                    saepe odit! Id <q>necessitatibus saepe nam ipsam vel!</q>
+                </p>
+            </article>
+        </div> 
+       </section>
+
+       <section>
+        <div>
+            <h5>List of things to get from the market:</h5>
+            <ul>
+                <li>Rice</li>
+                <li>Pepper</li>
+                <li>Chicken </li>
+                <li>Yam Flour</li>
+            </ul>
+        </div>
+
+        <div>
+            <p>I have a <strong> arm </strong></p>
+            <p>The footer color is <span>Blue</span></p>
+            <p>the old price is <del> #23</del> while the new price is <ins>#100</ins> </p>
+            <address> PO Box 132 stamford Highway </address>
+            <p> this word by <cite> Jeff Bezos</cite> was said in year 2013 </p>
+            <p> this is for <em> ivory </em> </p>
+        </div>
+       </section>
+
+
+        <section>
+           <h5>Media Section</h5>
+           <div>
+            <figure>
+                <img src="./assets/images/Alexa photo.jpeg"
+                alt="Alexa Photo"  
+                title="this is a cat"
+                width="300"
+                height="150">
+                <figcaption> Fig 1.0-This is a <b> Cat</b></figcaption>
+            </figure>
+           </div>
+           <div>
+            <figure>
+                <video width="400px" height="200px" controls>
+                    <source src="./assets/videos/SJZE3919.MP4">
+                </video>
+                <figcaption>Short Comedy</figcaption>
+            </figure>
+           
+           </div>
+        </section>
+        <br/>
+        <br/>
+
+        <div>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>A Memo for Fruit</th>
+                    </tr> 
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Orange</td>
+                        <td>Apple</td>
+                        <td>Mango</td>
+                    </tr>
+                    <tr>
+                        <td>Pawpaw</td>
+                        <td>Watermelon</td>
+                        <td>Pear</td>
+                    </tr>
+
+                </tbody>
+
+             </table>
+        </div>    
+        <br/>
+        <br/>
+
+
+        <section>
+            <form method="get">
+                <fieldset>
+                  <legend>User Details</legend>
+          
+                  <div>
+                    <label for="username">Username</label>
+                    <input
+                      type="text"
+                      id="username"
+                      name="username"
+                      placeholder="enter your username"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <h2>Gender?</h2>
+                    <input type="radio" id="male" name="user_gender" value="Male" />
+                    <label for="male">Male</label>
+                    <input
+                      type="radio"
+                      id="female"
+                      name="user_gender"
+                      value="Female"
+                      checked
+                    />
+                    <label for="female">Female</label>
+                    <input type="radio" id="others" name="user_gender" value="Others" />
+                    <label for="others">Others</label>
+                  </div>
+                  <div>
+                    <input type="checkbox" id="tnc" name="tnc" checked />
+                    <label for="tnc">I agree to the terms and conditions</label>
+                  </div>
+          
+                  <div>
+                    <label for="states">Your state of origin</label>
+                    <select name="states" id="states">
+                      <option value="oyo">Oyo</option>
+                      <option value="lagos">lagos</option>
+                      <option value="osun">osun</option>
+                      <option value="ondo">ondo</option>
+                      <option value="ogun" selected>ogun</option>
+                    </select>
+                  </div>
+                  <div>
+                    <br/>
+                    <br/>
+                    <label for="message">Message</label>
+                    <textarea
+                      name="message"
+                      id="message"
+                      cols="30"
+                      rows="10"
+                      placeholder="Enter your message">
+                    </textarea>
+                  </div>
+                  <br/>
+                  <br/>
+                  <div>
+                    <label for="car_types">Type of cars</label>
+                    <select name="cars" id="car_types">
+                      <optgroup label="toyota">
+                        <option value="camry">Camry</option>
+                        <option value="corolla">corolla</option>
+                        <option value="lexus">lexus</option>
+                      </optgroup>
+                      <optgroup label="tesla">
+                        <option value="model3">model3</option>
+                        <option value="modelX">modelX</option>
+                        <option value="modelY">modelY</option>
+                      </optgroup>
+                    </select>
+                  </div>
+                  <br/>
+                  <br/>
+                  <div>
+                    <label for="favColors">Favourite Colors</label>
+                    <input id="favColors" name="favoriteColors" list="colors" />
+                    <datalist id="colors">
+                      <option value="red" />
+                      <option value="blue" />
+                      <option value="yellow" />
+                      <option value="black" />
+                    </datalist>
+                  </div>
+                  <br/>
+                  <input type="submit" value="send" />
+                </fieldset>
+              </form>
+        </section>
+
+        
+
+
+        <footer>
+            <p>This webpage was created by &copy; Macford</p>
+        </footer>
+</body>
+</html>
