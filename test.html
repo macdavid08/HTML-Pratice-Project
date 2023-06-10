@@ -68,34 +68,51 @@
            
            </div>
         </section>
+
         <br/>
         <br/>
 
+       <section>
+         
         <div>
-
             <table>
 
                 <thead>
+                    <caption>Food Nutrition</caption>
                     <tr>
-                        <th>A Memo for Fruit</th>
+                        <th>Carbohydrate</th>
+                        <th>Protein</th>
+                        <th>Fruits</th>
                     </tr> 
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Orange</td>
+                        <td>Rice</td>
+                        <td>Beans</td>
                         <td>Apple</td>
-                        <td>Mango</td>
                     </tr>
                     <tr>
-                        <td>Pawpaw</td>
+                        <td>Maize</td>
+                        <td>Fish</td>
+                        <td>Orange</td>
+                    </tr>
+                    <tr>
+                        <td>Bread</td>
+                        <td>Egg</td>
+                        <td>Cucumber</td>
+                    </tr>
+                    <tr>
+                        <td>Yam</td>
+                        <td>Meat</td>
                         <td>Watermelon</td>
-                        <td>Pear</td>
                     </tr>
 
                 </tbody>
 
              </table>
-        </div>    
+        </div>   
+       </section>
+
         <br/>
         <br/>
 
@@ -106,12 +123,77 @@
                   <legend>User Details</legend>
           
                   <div>
+                    <label for="Fullname">Fullname</label>
+                    <input
+                      type="text"
+                      id="fullname"
+                      name="fullname"
+                      placeholder="enter your fullname"
+                      required
+                    />
+                  </div>
+          
+                  <div>
+                    <label for="email">Email</label>
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      placeholder="enter your email"
+                      required
+                    />
+                  </div>
+          
+                  <div>
                     <label for="username">Username</label>
                     <input
                       type="text"
                       id="username"
                       name="username"
                       placeholder="enter your username"
+                      required
+                    />
+                  </div>
+          
+                  <div>
+                    <label for="phone">Phone Number</label>
+                    <input
+                      type="number"
+                      id="phone"
+                      name="username"
+                      placeholder="enter your phone number"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label for="dob">Date of Birth</label>
+                    <input
+                      type="date"
+                      id="dob"
+                      name="date of birth"
+                     
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label for="favColor">Favorite Color</label>
+                    <input
+                      type="color"
+                      id="favColor"
+                      name="favColor"
+                      value="#ff0000"
+                     
+                      required
+                    />
+                  </div>
+          
+                  <div>
+                    <label for="password">Password</label>
+                    <input
+                      type="password"
+                      id="password"
+                      name="password"
+                      placeholder="enter your password"
                       required
                     />
                   </div>
@@ -175,19 +257,13 @@
                     </select>
                   </div>
                   <br/>
-                  <br/>
                   <div>
-                    <label for="favColors">Favourite Colors</label>
-                    <input id="favColors" name="favoriteColors" list="colors" />
-                    <datalist id="colors">
-                      <option value="red" />
-                      <option value="blue" />
-                      <option value="yellow" />
-                      <option value="black" />
-                    </datalist>
+                    <label for="range">How confident are you on HTML</label>
+                    <input type="range" id="range" min="0" max="100">
                   </div>
                   <br/>
-                  <input type="submit" value="send" />
+                  <br/>
+                  <input type="submit" value="Submit" />
                 </fieldset>
               </form>
         </section>
