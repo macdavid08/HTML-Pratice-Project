@@ -6,7 +6,7 @@
            header{
             width: 70dvh;
             margin: 0 auto;
-            height: 75dvh;
+            height: 85dvh;
             box-sizing: border-box;
             border-radius: 20px;
             /* background: linear-gradient(140deg, #54146c 1.18%, #A626D3 100%); */
@@ -32,12 +32,12 @@
            nav h3 {
             margin: 0;
             color: rgb(34, 8, 201);
-            font-size: 24px;
-            margin-top: 20px;
+            font-size: 20px;
+            margin-top: 10px;
            }
            nav ol {
             margin: 0;
-            font-size: 16px;
+            font-size: 14px;
             margin-bottom: 10px;
             color: black;
            }
@@ -53,16 +53,20 @@
             margin-bottom: 10px;
            }
 
+           label{
+            font-size: 14px;
+           }
+
 
            button{
             margin: 0 auto;
-            margin-top: 15px;
-            padding: 15px 35px;
+            margin-top: 10px;
+            padding: 15px 25px;
             background: rgb(34, 8, 201);
             color: white;
             border: none;
             border-radius: 5px;
-            margin-left: 90px;
+            margin-left: 85px;
             text-align: center;
             cursor: pointer;
            }
@@ -71,7 +75,8 @@
             text-decoration: none;
             color: #fff;
             font-weight: 500;
-            font-size: 15px;
+            font-size: 13px;
+            margin: 0;
 
            }
            
@@ -91,16 +96,16 @@
                     <li>This project is gonna be a live session</li>
                     <li>This Project is time bound</li>
                 </ol>
-                <form action="#">
+                <form action="#" onsubmit="handleSubmit()">
                   <input type="text" id="fullname" placeholder="Fullname" class="name"/> <br/>
                   <input type="checkbox" id="check"/>
                   <label for="check" class="chk"> Are you ready to take the test</label>
-                  <button><a href="test.html"> Take Test</a></button>
+                  <button type="submit" id="submit"><a href="test.html"> Take Test</a></button>
                 </form>
             </nav>
         </header>
 
 
-
+        <script src="main.js"></script>
 </body>
 </html>
