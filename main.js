@@ -1,2 +1,3 @@
-let fullName = document.getElementById("#fullname")
-console.log(fullName)
+let fullName = document.getElementById("#fullname").target()
+
+
